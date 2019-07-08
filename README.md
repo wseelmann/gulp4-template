@@ -19,8 +19,11 @@ Welche Module verwenden wir und was bewirken sie?
 * Bearbeitungsprogramm von CSS Dateien -> gulp-postcss
 * Hinzufügen von Vendor-Präfixe -> autoprefixer
 * Minimieren der finalen CSS Datei -> cssnano
-* Kombinieren mehrerer JS Dateien in eine Datei -> gulp-concat
+* Kombinieren mehrerer JS Dateien in einer Datei -> gulp-concat
 * Minimieren von JS Dateien -> gulp-uglify
 * Verschieben der Endversionen in den Ordner /dist.
+
+Browser starten
+* Browser anzeigen um Änderungen direkt anzuzeigen -> browser-sync
 
  
