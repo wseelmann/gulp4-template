@@ -8,8 +8,9 @@ const cssnano = require ('cssnano');
 const browserSync = require('browser-sync').create();
 const sourcemaps = require('gulp-sourcemaps');
 const replace = require('gulp-replace');
+const del = require("del");
 
-// 
+// Here you get the file paths
 
 //compile scss into css
 function style () {
@@ -44,6 +45,13 @@ function scripts () {
   .pipe(browserSync.stream());
 }
 
+//Clean the dist folder
+function clean() {
+  return del ([
+    "dist/"
+  ]);
+} 
+
 // Cachebust
 var cbString = new Date().getTime();
 function cacheBust(){
@@ -69,6 +77,7 @@ function watch () {
 exports.style = style;
 exports.scripts = scripts;
 exports.watch = watch;
+exports.clean = clean;
 
 exports.default = gulp.series(
     style,
