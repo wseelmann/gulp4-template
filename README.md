@@ -1,4 +1,4 @@
-# template für Sass and Gulp 4
+# template für Sass und Gulp 4
 
 In diesem Tutorial wird Schritt für Schritt erklärt, wie Sie Gulp 4 in Ihrem Workflow einrichten.
 
