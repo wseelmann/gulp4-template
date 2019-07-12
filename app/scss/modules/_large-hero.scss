@@ -1,0 +1,9 @@
+.large-hero {
+	position: relative;
+
+	&__image {
+		display: block;
+    width: 100%;
+    padding: 0 10px 10px 0;
+	}
+}

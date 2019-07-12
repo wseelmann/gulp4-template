@@ -16,37 +16,50 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
         
         <!-- CSS File -->
-        <link rel="stylesheet" href="dist/css/style.css?cb=1562597493530">
+        <link rel="stylesheet" href="dist/css/style.css?cb=1562855979112">
     </head>
     <body>
 
         <main>
-            <section class="content">
-                <h1>Werners Beispielseite</h1>
-                <h2>Verwenden von Sass und Gulp</h2>
+          <section class="content">
+            <h1>Werners Beispielseite</h1>
+            <h2>Verwenden von Sass und Gulp</h2>
 
-                <p>
-                    Hier ist eine kurze Anleitung zur Einrichtung:
-                </p>
+            <p>
+                Hier ist eine kurze Anleitung zur Einrichtung:
+            </p>
 
-                <ul>
-                    <li>Git Repo klonen</li>
-                    <li>Starten Sie, indem Sie "npm install" in der Befehlszeile ausführen.</li>
-                    <li>Führen Sie "gulp" in der Befehlszeile aus.</li>
-                </ul>
+            <ul>
+                <li>Git Repo klonen</li>
+                <li>Starten Sie, indem Sie "npm install" in der Befehlszeile ausführen.</li>
+                <li>Führen Sie "gulp" in der Befehlszeile aus.</li>
+            </ul>
+           <section class="large-hero">
+               <picture>
+                <source srcset="dist/images/large/hero--large-lo.jpg 1920w, dist/images/large/hero--large-hi.jpg 3840w" media="(min-width: 1400px)">
+                <source srcset="dist/images/medium/hero--medium-lo.jpg 1380w, dist/images/medium/hero--medium-hi.jpg 2640w" media="(min-width: 900px)">
+                <source srcset="dist/images/small/hero--small-lo.jpg 990w, dist/images/small/hero--small-hi.jpg 1980w" media="(min-width: 760px)">
+                <img srcset="dist/images/smaller/hero--smaller-lo.jpg 640w, dist/images/smaller/hero--smaller-hi.jpg 1280w"  alt="Coastal view of ocean and mountains" class="large-hero__image">
+               </picture>
+           </section>
+         
 
-            </section>
+        </section>
+     
+           
+        <aside>
+            <h3>Projektinfo</h3>
+            <p>
+                Dies ist ein Starter-Front-End-Projekt, das SCSS- und JS-Dateien mit Gulp 4 kompiliert.
+            </p>
+        </aside>
+
+
             
-            <aside>
-                <h3>Projektinfo</h3>
-                <p>
-                    Dies ist ein Starter-Front-End-Projekt, das SCSS- und JS-Dateien mit Gulp 4 kompiliert.
-                </p>
-            </aside>
             
         </main>
 
         <!-- JavaScript File -->
-        <script src="dist/js/all.js?cb=1562597493530"></script>
+        <script src="dist/js/all.js?cb=1562855979112"></script>
     </body>
 </html>
